@@ -1,25 +1,34 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31005.135
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{3C730D3F-802A-49FE-9852-54692B678227}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3C730D3F-802A-49FE-9852-54692B678227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3C730D3F-802A-49FE-9852-54692B678227}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3C730D3F-802A-49FE-9852-54692B678227}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3C730D3F-802A-49FE-9852-54692B678227}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {305F84AE-D296-4938-8B86-962519F288F1}
-	EndGlobalSection
-EndGlobal
+using System;
+
+namespace ConsoleApp3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {   Console.Write("Ведите х точки А:");
+            int x1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Ведите y точки A:");
+            int y1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Ведите х точки В:");
+            int x2 = Convert.ToInt32(Console.ReadLine());
+            
+            Console.Write("Ведите у точки В:");
+            int y2 = Convert.ToInt32(Console.ReadLine());
+            
+            Console.Write("Ведите x точки С:");
+            int x3 = Convert.ToInt32(Console.ReadLine());
+            
+            Console.Write("Ведите у точки С:");
+            int y3 = Convert.ToInt32(Console.ReadLine());
+
+            double AB = Convert.ToDouble(Math.Sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1)));
+            double BC = Convert.ToDouble(Math.Sqrt((x3 - x2) * (x3 - x2) + (y3 - y2) * (y3 - y2)));
+            double AC = Convert.ToDouble(Math.Sqrt((x3 - x1) * (x3 - x1) + (y3 - y1) * (y3 - y1)));
+
+            double P = AB + BC + AC;
+            Console.Write(P);
+        }
+    }
+}
