@@ -1,25 +1,29 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31005.135
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp4", "ConsoleApp4\ConsoleApp4.csproj", "{3A3E8E37-54C5-452B-B2F6-4416B1186C7F}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3A3E8E37-54C5-452B-B2F6-4416B1186C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A3E8E37-54C5-452B-B2F6-4416B1186C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A3E8E37-54C5-452B-B2F6-4416B1186C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A3E8E37-54C5-452B-B2F6-4416B1186C7F}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EF2FFCCD-2B7F-47AD-962B-0FAF1E04AC5E}
-	EndGlobalSection
-EndGlobal
+using System;
+
+namespace ConsoleApp4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Ведите х = ");
+            double x = Convert.ToDouble(Console.ReadLine());
+
+            double b = 2 * (x * x) - x - 3;
+
+            int y = 0;
+            if (b == 0)
+                y = 1;
+            else
+                if (b > 0)
+                y = 2;
+            else
+                if (b < 0)
+                y = 0;
+
+            Console.WriteLine("y = {0}", y);
+                
+
+        }
+    }
+}
