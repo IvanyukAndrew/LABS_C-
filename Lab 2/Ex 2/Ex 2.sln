@@ -1,25 +1,39 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31005.135
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex 2", "Ex 2\Ex 2.csproj", "{92D7853C-7108-480C-8DF5-9E4277E955FB}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{92D7853C-7108-480C-8DF5-9E4277E955FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92D7853C-7108-480C-8DF5-9E4277E955FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92D7853C-7108-480C-8DF5-9E4277E955FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92D7853C-7108-480C-8DF5-9E4277E955FB}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E0B8BDE3-791F-43D3-922E-1797DB8F6001}
-	EndGlobalSection
-EndGlobal
+using System;
+
+namespace Ex_2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Ведите число х: ");
+            int x = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Ведите число у: ");
+            int y = Convert.ToInt32(Console.ReadLine());
+
+            int count = 0;
+
+            while (x > 0)
+            {
+                if (x % 10 == 0)
+                { count = count + 1; }
+                x = x / 10;
+            }
+            int count1 = 0;
+
+            while (y > 0)
+            {
+                if (y % 10 == 0)
+                { count1 = count1 + 1; }
+                y = y / 10;
+            }
+            if (count > count1)
+            { Console.WriteLine("Найбільше нулів в х"); }
+            else
+            { Console.WriteLine("Найбільше нулів в У"); }
+        }
+
+
+    }
+}
