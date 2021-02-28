@@ -1,4 +1,4 @@
-Console.Write("Ведіть точність: ");
+            Console.Write("Ведіть точність: ");
             double epsilon = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("x =  ");
@@ -11,7 +11,7 @@ Console.Write("Ведіть точність: ");
             while (true)
             {
                 double current = Math.Pow((2 * (-1)), (n - 1)) * Math.Sin(n * x);
-                if (Math.Abs(current) >= epsilon)
+                if (Math.Abs(current) <= epsilon)
                 {
                     s += current;
                     n += 1;
