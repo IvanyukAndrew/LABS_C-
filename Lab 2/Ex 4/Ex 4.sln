@@ -1,4 +1,4 @@
-Console.Write("n = ");
+            Console.Write("n = ");
             int n = Convert.ToInt32(Console.ReadLine());
 
             int x0 = 0;
@@ -12,7 +12,7 @@ Console.Write("n = ");
             {
                 while (i <= n + 1)
                 {
-                    xn = x1 * (1 * x0);
+                    xn = x1 + (1 * x0);
                     x0 = x1;
                     x1 = xn;
                     i++;
