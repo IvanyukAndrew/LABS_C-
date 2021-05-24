@@ -1,0 +1,13 @@
+C:\Users\ivany\source\repos\Lab 6\Ex 4\Ex 4\bin\Debug\netcoreapp3.1\Ex 4.exe
+C:\Users\ivany\source\repos\Lab 6\Ex 4\Ex 4\bin\Debug\netcoreapp3.1\Ex 4.deps.json
+C:\Users\ivany\source\repos\Lab 6\Ex 4\Ex 4\bin\Debug\netcoreapp3.1\Ex 4.runtimeconfig.json
+C:\Users\ivany\source\repos\Lab 6\Ex 4\Ex 4\bin\Debug\netcoreapp3.1\Ex 4.runtimeconfig.dev.json
+C:\Users\ivany\source\repos\Lab 6\Ex 4\Ex 4\bin\Debug\netcoreapp3.1\Ex 4.dll
+C:\Users\ivany\source\repos\Lab 6\Ex 4\Ex 4\bin\Debug\netcoreapp3.1\Ex 4.pdb
+C:\Users\ivany\source\repos\Lab 6\Ex 4\Ex 4\obj\Debug\netcoreapp3.1\Ex 4.csprojAssemblyReference.cache
+C:\Users\ivany\source\repos\Lab 6\Ex 4\Ex 4\obj\Debug\netcoreapp3.1\Ex 4.AssemblyInfoInputs.cache
+C:\Users\ivany\source\repos\Lab 6\Ex 4\Ex 4\obj\Debug\netcoreapp3.1\Ex 4.AssemblyInfo.cs
+C:\Users\ivany\source\repos\Lab 6\Ex 4\Ex 4\obj\Debug\netcoreapp3.1\Ex 4.csproj.CoreCompileInputs.cache
+C:\Users\ivany\source\repos\Lab 6\Ex 4\Ex 4\obj\Debug\netcoreapp3.1\Ex 4.dll
+C:\Users\ivany\source\repos\Lab 6\Ex 4\Ex 4\obj\Debug\netcoreapp3.1\Ex 4.pdb
+C:\Users\ivany\source\repos\Lab 6\Ex 4\Ex 4\obj\Debug\netcoreapp3.1\Ex 4.genruntimeconfig.cache
